@@ -72,11 +72,14 @@ h1, h2, h3, h4, h5 {
   
   /* header */
   
-  header nav {
-	display: inline-block;
+  header  {
+/*	display: inline-block;
 	width: 691px;
 	vertical-align: top;
-	margin-top: 35px;
+	margin-top: 35px; */
+	display: flex;
+	justify-content: space-around;
+	
   }
   
   header nav a {
